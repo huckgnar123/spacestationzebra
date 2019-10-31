@@ -11,6 +11,31 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   body {
+    text-align: center;
+}
+.wrapper {
+  display: inline-flex;
+  justify-content: center;
+}
+.wrapper i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+  color: #1DA1F2;
+}
+.wrapper a:nth-child(2) {
+  color: #4867AA;
+}
+.wrapper a:nth-child(3) {
+  color: #1DA1F2;
+}
+.wrapper i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+      }
+      
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
@@ -113,8 +138,19 @@
 </div>
 
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Check out our game! <a href="https://huckgnar123.github.io/turbinecity">Turbine City</a></p>
+<footer class="container-fluid bg-4 text-center"> 
+  <p>Check out our game! <a href="https://huckgnar123.github.io/turbinecity">Turbine City</a>
+    <br> <br> Come chat with us on these social media channels:
+    
+    </p>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="wrapper">
+   <a target="_blank" href="https://t.me/spacestationzebra"><i class="fa fa-3x fa-paper-plane"></i></a>
+   <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
+    <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i></a>
+</div>
+    
 </footer>
 
 </body>
